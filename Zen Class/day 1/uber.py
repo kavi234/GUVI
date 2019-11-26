@@ -6,7 +6,7 @@ if(distance>5):
     distance=distance-5
     fare=100+(distance*8)
     print(fare)
-    if(peak==1):
+    if(peaktime==1):
         fare1=(fare+(0.25*fare))
         print(fare1)
 else:
