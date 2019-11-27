@@ -1,0 +1,9 @@
+name=input()
+sex=input()
+status=input()
+if(sex=="male"):
+    print("mr:",name)
+elif(status=="single"):
+    print("Ms:",name)
+else:
+    print("Mrs:",name)
